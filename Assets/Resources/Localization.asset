@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8572a51b4515459c86be7792c9388af, type: 3}
+  m_Name: Localization
+  m_EditorClassIdentifier: 
+  isLocalizationEnabled: 1
+  currentLanguageIndex: 0
+  languages:
+  - langName: ole
+    langStrings:
+    - Key: greetings
+      LocalizedValue: hi
+    - Key: hai
+      LocalizedValue: hello
+    - Key: wassup
+      LocalizedValue: dawg
+    - Key: ye
+      LocalizedValue: gentleman
+    - Key: kanye
+      LocalizedValue: the greatest
+    - Key: wadup
+      LocalizedValue: dawg
+    - Key: booyah
+      LocalizedValue: rah
+    - Key: hehe
+      LocalizedValue: he
+    - Key: lolol
+      LocalizedValue: k
+    - Key: wompa
+      LocalizedValue: booooo
+    - Key: table
+      LocalizedValue: chair
+  - langName: French
+    langStrings:
+    - Key: wadup
+      LocalizedValue: homie
+    - Key: you're cool
+      LocalizedValue: je suis awesome
+  - langName: 
+    langStrings: []
